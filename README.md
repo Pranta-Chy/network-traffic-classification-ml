@@ -62,10 +62,12 @@ ________________________________________
 📈 Results
 		=== Metrics Summary ===
 
-               precision  recall  f1-score  accuracy
-MLP              0.6374   0.6294    0.6231    0.6294
-XGBoost          0.9094   0.9050    0.9049    0.9050
-RandomForest     0.9627   0.9575    0.9580    0.9575
+| Model        | Precision | Recall | F1-Score | Accuracy |
+| ------------ | --------- | ------ | -------- | -------- |
+| MLP          | 0.6374    | 0.6294 | 0.6231   | 0.6294   |
+| XGBoost      | 0.9094    | 0.9050 | 0.9049   | 0.9050   |
+| RandomForest | 0.9627    | 0.9575 | 0.9580   | 0.9575   |
+
 
 Confusion matrices and heatmaps are available in the notebook.
 The final comparison plot shows side-by-side performance of all models.
