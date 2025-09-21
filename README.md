@@ -5,21 +5,7 @@ The goal is to analyze network traffic flow features and classify them into cate
 
 ---
 
- 📂 Project Structure
-ML-Network-Traffic-Classification/
-├── data/                  # Dataset folder (download from Kaggle)
-├── models/                # Saved models (.pkl files)
-├── notebooks/             # Jupyter notebooks with training, evaluation, and comparison
-│   └── training_and_evaluation.ipynb
-├── src/                   # Python scripts for training & evaluation
-│   ├── train_rf.py
-│   ├── train_mlp.py
-│   ├── train_xgb.py
-│   └── evaluate.py
-├── requirements.txt       # Dependencies
-└── README.md              # Project documentation
 
----
 
 ## 📊 Dataset
 The dataset is taken from Kaggle:  
