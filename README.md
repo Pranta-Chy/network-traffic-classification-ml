@@ -39,6 +39,16 @@ git clone https://github.com/your-username/network-traffic-classification-ml.git
 cd network-traffic-classification-ml
 pip install -r requirements.txt
 ________________________________________
+
+Large model files are stored on Google Drive (GitHub file-size limit).
+
+To download them:
+
+Bash:
+pip install gdown
+python download_models.py
+
+
 🚀 Usage
 Run Models
 You can train individual models using:
@@ -59,13 +69,7 @@ RandomForest     0.9627   0.9575    0.9580    0.9575
 
 Confusion matrices and heatmaps are available in the notebook.
 The final comparison plot shows side-by-side performance of all models.
-________________________________________
-💡 Future Improvements
-•	Add more ML models (SVM, Gradient Boosting, etc.)
-•	Hyperparameter tuning for better accuracy
-•	Extend to deep learning with CNNs/LSTMs
-•	Deploy as a web application (optional)
-________________________________________
+
 👤 Author
 •	Pranta Chowdhury (CSE – Premier University Chattogram)
 •	GitHub: Pranta-Chy
